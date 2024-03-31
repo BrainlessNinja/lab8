@@ -1,3 +1,30 @@
+"""
+Programm has 3 tools:
+- Rectangle (default)
+- Circle
+- Eraser
+
+How to draw rectangle:
+- Press R to select rectangle tool
+- Click and hold LMB to start drawing rectangle
+- Release LMB to finish drawing rectangle
+
+How to draw circle:
+- Press C to select circle tool
+- Click and hold LMB to start drawing circle
+- Release LMB to finish drawing circle
+
+How to erase:
+- Press E to select eraser tool
+- Click the area where you want to erase the shapes
+
+How to change color:
+- Click on the color panel on the right side of the screen to change the color
+
+"""
+
+
+
 import pygame
 
 ###Creating DrawRectangle function. This function will use pygame's event handler to get the mouse position when LMB is pressed and when it is released. It will then draw a rectangle using the two points as the opposite corners.
